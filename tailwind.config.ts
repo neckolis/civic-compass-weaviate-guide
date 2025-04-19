@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -27,6 +30,13 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
+				},
+				government: {
+					blue: '#0A4B85',
+					'blue-light': '#1976D2',
+					'blue-pale': '#E6F0F9',
+					gray: '#F0F2F5',
+					'gray-dark': '#58616A',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
